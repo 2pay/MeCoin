@@ -1,0 +1,34 @@
+src/*.exe
+src/mecoin
+src/mecoind
+src/test_mecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.mecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+mecoin-qt
+Mecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+mecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "vector": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "*.ipp": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "deque": "cpp"
+    }
+}
